@@ -4,7 +4,7 @@ current = float(input("What is it worth now? $"))
 difference = current - invented 
 
 if difference > 0:
-  print("Profit: $" + str(round(abs(difference, 2)))
+  print("Profit: $" + str(round(abs(difference, 2))))
 elif difference < 0:
   print("Loss: $" + str(round(abs(difference), 2)))
 else:
