@@ -1,7 +1,7 @@
 invested = float(input("How much did you invest? $"))
 current = float(input("What is it worth now? $"))
 
-difference = current - invented 
+difference = current - invested 
 
 if difference > 0:
   print("Profit: $" + str(round(abs(difference, 2))))
